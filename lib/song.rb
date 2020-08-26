@@ -28,7 +28,7 @@ def self.genre_count
   if music.include?(music) == true 
   count[music] = num + 1 
  else 
-   coutn[music] = 1 
+   count[music] = 1 
  end
 end
 count 
