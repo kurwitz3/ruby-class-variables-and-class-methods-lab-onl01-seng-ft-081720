@@ -42,6 +42,7 @@ def self.artist_count
   count = {}
   num = 1
   @@artists.each do |singers|
+    binding.pry 
     if count.include?(singers) == true 
       count[singers] = num + 1 
     else 
