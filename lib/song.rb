@@ -45,6 +45,7 @@ def self.artist_count
     
     if count.include?(singers) == true 
       count[singers] = num + 1 
+      binding.pry
     else 
       count[singers] = num 
     end
