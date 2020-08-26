@@ -27,7 +27,8 @@ def self.genre_count
 @@genres.each  do |music|
   if music.include?(music) == true 
   count[music] = num + 1 
- binding.pry 
+ else 
+   coutn[music] = 1 
  end
 end
 count 
