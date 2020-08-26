@@ -41,7 +41,14 @@ end
 def self.artist_count 
   count = {}
   num = 1
-  
+  @@artists.each do |singers|
+    if count.include?(singers) == true 
+      count[singers] = num + 1 
+    else 
+      count[singers] = num 
+    end
+  end 
+end
 
   
 
